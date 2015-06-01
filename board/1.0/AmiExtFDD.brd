@@ -611,7 +611,6 @@ design rules under a new name.</description>
 <contactref element="CON-AMIGA" pad="5"/>
 <contactref element="CON-AMIGA" pad="7"/>
 <contactref element="CON-AMIGA" pad="9"/>
-<contactref element="CON-AMIGA" pad="11"/>
 <wire x1="61.4934" y1="27.94" x2="58.27" y2="41.64" width="0" layer="19" extent="1-1"/>
 <wire x1="61.4934" y1="26.67" x2="61.4934" y2="27.94" width="0" layer="19" extent="1-1"/>
 <wire x1="61.4934" y1="25.4" x2="61.4934" y2="26.67" width="0" layer="19" extent="1-1"/>
@@ -621,11 +620,10 @@ design rules under a new name.</description>
 <wire x1="31.83" y1="40.64" x2="58.27" y2="41.64" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="5.08" x2="45.1866" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="5.08" x2="16.51" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="8.89" y1="-11.43" x2="13.97" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="6.35" y1="-11.43" x2="8.89" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-11.43" x2="13.97" y2="5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="3.81" y1="-11.43" x2="6.35" y2="-11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="1.27" y1="-11.43" x2="3.81" y2="-11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="-21.59" x2="8.89" y2="-11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="-21.59" x2="6.35" y2="-11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="-21.59" x2="17.78" y2="-21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="-21.59" x2="20.32" y2="-21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="-21.59" x2="22.86" y2="-21.59" width="0" layer="19" extent="1-1"/>
@@ -645,8 +643,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$1">
 <contactref element="J2" pad="2"/>
-<contactref element="CON-AMIGA" pad="17"/>
-<wire x1="16.51" y1="-11.43" x2="20.32" y2="27.94" width="0" layer="19" extent="1-1"/>
+<contactref element="CON-AMIGA" pad="13"/>
+<wire x1="11.43" y1="-11.43" x2="20.32" y2="27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="J1" pad="3"/>
@@ -659,11 +657,6 @@ design rules under a new name.</description>
 <contactref element="J2" pad="3"/>
 <contactref element="CON-FDD" pad="2"/>
 <wire x1="17.78" y1="-19.05" x2="22.86" y2="27.94" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="J4" pad="1"/>
-<contactref element="CON-AMIGA" pad="18"/>
-<wire x1="16.51" y1="-8.89" x2="17.78" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="J4" pad="3"/>
@@ -691,9 +684,9 @@ design rules under a new name.</description>
 <signal name="N$21">
 <contactref element="U2" pad="5"/>
 <contactref element="CON-FDD" pad="8"/>
-<contactref element="CON-AMIGA" pad="20"/>
-<wire x1="25.4" y1="-19.05" x2="45.1866" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="-8.89" x2="25.4" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<contactref element="CON-AMIGA" pad="18"/>
+<wire x1="16.51" y1="-8.89" x2="45.1866" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="-19.05" x2="16.51" y2="-8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="J1" pad="1"/>
@@ -727,9 +720,9 @@ design rules under a new name.</description>
 <signal name="N$24">
 <contactref element="R3" pad="1"/>
 <contactref element="U1" pad="2"/>
-<contactref element="CON-AMIGA" pad="13"/>
+<contactref element="CON-AMIGA" pad="11"/>
 <wire x1="35.56" y1="34.37" x2="55.3466" y2="27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="-11.43" x2="35.56" y2="34.37" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="-11.43" x2="35.56" y2="34.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="R2" pad="2"/>
@@ -743,8 +736,10 @@ design rules under a new name.</description>
 <contactref element="R5" pad="2"/>
 <contactref element="CON-AMIGA" pad="19"/>
 <contactref element="R1" pad="2"/>
-<wire x1="61.4934" y1="29.21" x2="55.57" y2="41.64" width="0" layer="19" extent="1-1"/>
-<wire x1="51.3334" y1="21.59" x2="61.4934" y2="29.21" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="1"/>
+<wire x1="55.3466" y1="29.21" x2="55.57" y2="41.64" width="0" layer="19" extent="1-1"/>
+<wire x1="61.4934" y1="29.21" x2="55.3466" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="51.3334" y1="21.59" x2="55.3466" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="41.99" y1="25.4" x2="51.3334" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="40.64" y1="31.67" x2="41.99" y2="25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="31.67" x2="40.64" y2="31.67" width="0" layer="19" extent="1-1"/>
@@ -791,10 +786,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$33">
 <contactref element="R4" pad="1"/>
-<contactref element="U1" pad="1"/>
 <contactref element="U1" pad="4"/>
-<wire x1="55.3466" y1="25.4" x2="30.48" y2="34.37" width="0" layer="19" extent="1-1"/>
-<wire x1="55.3466" y1="29.21" x2="55.3466" y2="25.4" width="0" layer="19" extent="1-1"/>
+<contactref element="CON-AMIGA" pad="20"/>
+<wire x1="30.48" y1="34.37" x2="55.3466" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="-8.89" x2="30.48" y2="34.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U2" pad="8"/>
@@ -833,6 +828,11 @@ design rules under a new name.</description>
 <contactref element="J5" pad="3"/>
 <contactref element="U2" pad="11"/>
 <wire x1="-12.7" y1="-17.78" x2="51.3334" y2="17.78" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="J4" pad="1"/>
+<contactref element="CON-AMIGA" pad="17"/>
+<wire x1="16.51" y1="-11.43" x2="17.78" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

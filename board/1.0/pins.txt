@@ -2,23 +2,25 @@ Po³¹czenia pinów miêdzy Amig¹ i interfejsem:
 
 DISK DRIVE:		IDC20:
 --------------------------------
-1			1
-2			3
-3,4,5,6			5,7,9
-(7)			(NC)
-8			11
-9			13
-10			20
-11			15
-12			19
-13			2
-14			4
-15			6
-16			8
-17			10
-18			12
-19			14
-20			16
-21			17
-22			18
-(23)			(NC)
+1	/RDY		1	czerwony
+2	/DKRD		3	niebieski
+3	GND		5	bia³y
+4	GND		7	czerwono-czarny 
+5	GND		9	czerwono-br¹zowy
+(6,7)			(NC)
+8	/MTRxD		11	czarny
+9	/SEL2		15	¿ó³to-niebieski
+10	/DRESB		20	pomarañczowy
+11	/CHNG		13	¿ó³to-czerwony
+12	+5V		19	Czerwono-niebieski
+13	/SIDE		2	ró¿owy
+14	/WPRO		4	¿ó³ty
+15	/TK0		6	szary
+16	/DKWE		8	zielony
+17	/DKWD		10	br¹zowy
+18	/STEP		12	b³êkitny
+19	DIR		14	bia³o-czerwony
+20	/SEL3		16	fioletowy
+21	/SEL1		17	zielono-br¹zowy
+22	/INDEX		18	bia³o-niebieski
+(23)	+12V		(NC)

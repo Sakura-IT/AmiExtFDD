@@ -1443,11 +1443,11 @@
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="-104.14" y1="30.48" x2="-104.14" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="33.02" x2="-104.14" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="5.08" x2="-91.44" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<pinref part="CON-AMIGA" gate="G$1" pin="15"/>
-<wire x1="-132.08" y1="30.48" x2="-104.14" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CON-AMIGA" gate="G$1" pin="13"/>
+<wire x1="-104.14" y1="33.02" x2="-132.08" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -1480,11 +1480,11 @@
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="-96.52" y1="33.02" x2="-96.52" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="30.48" x2="-96.52" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="22.86" x2="-91.44" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="3"/>
-<pinref part="CON-AMIGA" gate="G$1" pin="13"/>
-<wire x1="-132.08" y1="33.02" x2="-96.52" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="CON-AMIGA" gate="G$1" pin="15"/>
+<wire x1="-132.08" y1="30.48" x2="-96.52" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
